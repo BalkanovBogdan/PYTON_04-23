@@ -10,4 +10,4 @@ def sort(n):
         return num
     return sort(n - 1) + ' ' + num
 
-print(sort(1))
+print(sort(4))
